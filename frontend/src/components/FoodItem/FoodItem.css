@@ -68,7 +68,8 @@
     right: 15px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
+    min-width: 80px;
     padding: 6px;
     border-radius: 50px;
     background-color: white;
@@ -76,4 +77,13 @@
 
 .food-item-counter img{
     width: 30px;
+    flex-shrink: 0;
+}
+
+.food-item-counter p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    min-width: 20px;
 }
